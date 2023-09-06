@@ -15,5 +15,5 @@ app.use('/api/user', userRoutes);
 app.use('/api/auth', authRoutes)
 
 app.listen(PORT, () => {
-    console.log("Server is listing on port 8000")
+    console.log(`Server is listing on port ${PORT}`)
 })
